@@ -57,4 +57,5 @@ dependencies:
   - pip:
     - peewee==3.13.1
     - simpy==3.0.11
+    - dynaconf==2.2.2
 prefix: /.conda/envs/EventSim
