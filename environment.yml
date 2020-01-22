@@ -58,6 +58,6 @@ dependencies:
     - peewee==3.13.1
     - simpy==3.0.11
     - dynaconf==2.2.2
-    - graphviz=0.13.2
-    - pycallgraph=1.0.1
+    - graphviz==0.13.2
+    - pycallgraph==1.0.1
 prefix: /.conda/envs/EventSim
