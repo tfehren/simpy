@@ -14,7 +14,7 @@ RUN apt-get -qq update && apt-get -qq -y install curl bzip2 \
 
 ENV PATH /opt/conda/bin:$PATH
 
-RUN apt-get -qq update && apt-get -qq -y install apt-utils \
+RUN apt-get -qq update && apt-get -qq -y install apt-utils graphviz\
     && apt-get -qq -y autoremove \
     && apt-get autoclean \
     && rm -rf /var/lib/apt/lists/* /var/log/dpkg.log
