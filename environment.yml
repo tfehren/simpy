@@ -60,4 +60,5 @@ dependencies:
     - dynaconf==2.2.2
     - graphviz==0.13.2
     - pycallgraph==1.0.1
+    - scipy==1.4.1
 prefix: /.conda/envs/EventSim
